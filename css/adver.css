@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "微软雅黑";
+    text-decoration: none;
+    color: #d4f2ff;
+}
+html {
+    /*font-size: 192px;*/
+    width: 100%;
+}
+
+
+body{
+    min-width: 1300px;
+}
+
+
+.header {
+    width: 100%;
+    min-width: 6.77rem;
+    display: flex;
+    height: 0.365rem;
+    flex-direction: row;
+    background: #162c4d;
+    position: relative;
+}
+
+.header .header_left {
+    display: flex;
+    float: left;
+    width: 5rem;
+    height: 0.365rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    
+}
+.header .header_left .header_left_logo {
+    width: 0.91rem;
+    height: 0.21rem;
+    background: url(../img/logo.png) no-repeat;
+    text-align: center;
+    line-height: 0.25rem;
+    margin-top: 0.076rem;
+    margin-left: 0.2rem;
+    background-size: cover;
+
+}
+.header .header_left .header_left_nav {
+    width: 3rem;
+    height: 0.365rem;
+    /*background-color:seagreen;*/
+}
+.header .header_left .header_left_nav li {
+    float: left;
+    margin-left: 0.39rem;
+    /*background-color: red;*/
+    height: 0.365rem;
+}
+.header .header_left .header_left_nav li a {
+    height: 0.365rem;
+    font-family: MicrosoftYaHei;
+    font-size: 0.083rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.365rem;
+    letter-spacing: 0rem;
+    color: #d4f2ff;
+}
+
+
+/*下拉菜单*/
+
+.dropdown {
+    width: 0.5rem;
+    position: relative;
+    display: inline-block;
+    margin-left: 2.432rem;
+    /*background-color: red;*/
+}
+
+
+
+
+.dropbtn {
+    width: 0.4rem;
+    height: 0.1rem;
+    font-family: MicrosoftYaHei;
+    font-size: 0.083rem;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: center;
+    line-height: 0.08rem;
+    letter-spacing: 0rem;
+    color: #d4f2ff;
+    background-color:  #162c4d;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 0.14rem;
+}
+
+
+.dropdown-content {
+    display: none;
+    min-width: 0.5rem;
+    box-shadow: 0rem 0.041rem 0.082rem 0rem rgba(0,0,0,0.2);
+    position: relative;
+    background: #fff;
+    margin-left: 0.1rem;
+    margin-top: 0.365rem;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.0625rem 0.0833rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*右边*/
+.header .header_right{
+    display: flex;
+    width: 1.2rem;
+    height: 0.360rem;
+    /*background-color: navajowhite;*/
+    margin-left: 0.9rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+
+}
+
+.center{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.header .header_right .firstname{
+    width: 0.188rem;
+    height: 0.188rem;
+    border-radius: 0.094rem;
+    background-color: #61b88e;
+    line-height: 0.188rem;
+    text-align: center;
+
+}
+
+.header .header_right .name{
+    width: 0.542rem;
+    height: 0.18rem;
+    /*background-color: chocolate;*/
+    line-height: 0.18rem;
+    text-align: center;
+    margin-left: 0.04rem;
+}
+
+.header .header_right .icon_exit{
+    width: 0.16rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: center;
+    margin-left: 0.15rem;
+    /*background-color: seagreen;*/
+}
+
+.title{
+    width: 100px;
+    height: 20px;
+    background-color: green;
+}
+
+.title span{
+    background-color: red;
+    font-size: 14px;
+    color: #1ab5fe;
+}
+
+
+
+
+
+
